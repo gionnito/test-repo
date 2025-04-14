@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  background-color: #fdf4e9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 250px;
+  padding: 30px;
+  border: 2px solid #38414a;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container-button {
+  width: 70%;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #38414a;
+  color: #bdd8f4;
+  outline: none;
+}
+
+.container-button:active {
+  transform: scale(.93);
+}
+
+.container-text {
+  font-size: 2rem;
+}
