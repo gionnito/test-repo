@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 250px;
+  width: 320px;
   padding: 30px;
   border: 2px solid #38414a;
   border-radius: 10px;
@@ -46,4 +46,11 @@ body {
 
 .container-text {
   font-size: 2rem;
+}
+
+.container-fancy-text {
+  text-align: center;
+  text-wrap: balance;
+  font-size: 1.1rem;
+  color: purple;
 }
